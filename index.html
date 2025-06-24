@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/LOGO.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Om Kharche" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Chaitanya Anil Joshi">Chaitanya Anil Joshi</h1>
+
+          <p class="title">Mobile Application Developer | Python Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:joshichaitanya2611@gmail.com" class="contact-link">joshichaitanya2611@.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91 7744861919</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2004-11-26">26 November, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Pune, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/chaitanya-anil-joshi" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          
+          <li class="social-item">
+            <a href="https://github.com/chaitanyajoshi2004" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/chaitanya_joshi2611" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a Computer Engineering student with a strong foundation in Python programming, mobile app development, and full-stack technologies. My experience includes building real-time applications using Flutter, Firebase, and REST APIs, with a focus on performance and usability.
+
+
+          </p>
+
+          <p>
+            I enjoy working in agile teams to solve real-world problems and create scalable solutions. I’m passionate about writing clean, maintainable code and have a growing interest in cybersecurity and automation, which drives me to continuously learn and improve.
+          </p>
+        </section>
+
+
+      <!--
+  - service
+-->
+<section class="service">
+  <h3 class="h3 service-title">What I'm Doing</h3>
+  <ul class="service-list">
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="./assets/images/icon-dev.svg" alt="Backend icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Python & Backend Development</h4>
+        <p class="service-item-text">
+          Writing secure, scalable backend logic using Python, Node.js, and REST APIs.
+        </p>
+      </div>
+    </li>
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="./assets/images/icon-app.svg" alt="Mobile app icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Mobile App Development</h4>
+        <p class="service-item-text">
+          Cross-platform mobile apps using Flutter & Firebase with real-time functionality.
+        </p>
+      </div>
+    </li>
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="./assets/images/icon-design.svg" alt="GUI icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Custom GUI Tools</h4>
+        <p class="service-item-text">
+          Building desktop interfaces using CustomTkinter and Python.
+        </p>
+      </div>
+    </li>
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="./assets/images/icon-security1.jpg" alt="Cybersecurity icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Cybersecurity Projects</h4>
+        <p class="service-item-text">
+          Implementing cryptography, file encryption, and password analyzers.
+        </p>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<!--
+  - testimonials
+-->
+<section class="testimonials">
+  <h3 class="h3 testimonials-title">Testimonials</h3>
+  <ul class="testimonials-list has-scrollbar">
+
+    <li class="testimonials-item">
+      <div class="content-card" data-testimonials-item>
+        <figure class="testimonials-avatar-box">
+          <img src="./assets/images/avatar-1.png" alt="Rohit Patil" width="60" data-testimonials-avatar>
+        </figure>
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>Rohit Patil</h4>
+        <div class="testimonials-text" data-testimonials-text>
+          <p>Chaitanya was an amazing team player during our internship. His ability to simplify complex backend logic using Python and REST APIs helped us deploy our app ahead of time.</p>
+        </div>
+      </div>
+    </li>
+
+    <li class="testimonials-item">
+      <div class="content-card" data-testimonials-item>
+        <figure class="testimonials-avatar-box">
+          <img src="./assets/images/avatar-2.png" alt="Dipti Sinha" width="60" data-testimonials-avatar>
+        </figure>
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>Dipti Sinha</h4>
+        <div class="testimonials-text" data-testimonials-text>
+          <p>I was highly impressed by Chaitanya's custom GUI tools in Python. His UI/UX attention and code clarity made his applications very user-friendly.</p>
+        </div>
+      </div>
+    </li>
+
+  </ul>
+</section>
+
+<!--
+  - testimonials modal
+-->
+<div class="modal-container" data-modal-container>
+  <div class="overlay" data-overlay></div>
+  <section class="testimonials-modal">
+    <button class="modal-close-btn" data-modal-close-btn>
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+    <div class="modal-img-wrapper">
+      <figure class="modal-avatar-box">
+        <img src="./assets/images/avatar-1.png" alt="Rohit Patil" width="80" data-modal-img>
+      </figure>
+      <img src="./assets/images/icon-quote.svg" alt="quote icon">
+    </div>
+    <div class="modal-content">
+      <h4 class="h3 modal-title" data-modal-title>Rohit Patil</h4>
+      <time datetime="2024-06-14">14 June, 2024</time>
+      <div data-modal-text>
+        <p>Chaitanya's backend logic and team spirit played a key role in our project's success during the internship. Highly recommend him!</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!--
+  - clients
+-->
+<section class="clients">
+  <h3 class="h3 clients-title">Clients</h3>
+  <ul class="clients-list has-scrollbar">
+    <li class="clients-item">
+      <a href="https://pinnaclelabs.org" target="_blank">
+        <img src="./assets/images/logo-1-color.png" alt="Pinnacle Labs">
+      </a>
+    </li>
+    <li class="clients-item">
+      <a href="https://codsoft.in" target="_blank">
+        <img src="./assets/images/logo-2-color.png" alt="CodSoft">
+      </a>
+    </li>
+    <li class="clients-item">
+      <a href="#">
+        <img src="./assets/images/logo-3-color.png" alt="Tech Entrepreneurs">
+      </a>
+    </li>
+  </ul>
+</section>
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+     <article class="resume" data-page="resume">
+
+  <header>
+    <h2 class="h2 article-title">Resume</h2>
+  </header>
+
+  <!-- EDUCATION -->
+  <section class="timeline">
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="book-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Education</h3>
+    </div>
+
+    <ol class="timeline-list">
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Bachelor of Engineering in Computer Science – SPPU</h4>
+        <span>September 2023 – May 2026</span>
+        <p class="timeline-text">
+          Pursuing BE with a CGPA of 9.27. Focused on mobile app development, full-stack technologies, and cybersecurity.
+        </p>
+      </li>
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Diploma in Computer Engineering – MSBTE</h4>
+        <span>January 2020 – June 2023</span>
+        <p class="timeline-text">
+          Completed with 90.80%. Gained strong fundamentals in programming, networking, and software development.
+        </p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="timeline">
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="briefcase-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Experience</h3>
+    </div>
+
+    <ol class="timeline-list">
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Mobile App Developer Intern – Tech Entrepreneurs (Regrowth Project)</h4>
+        <span>October 2024 – March 2025</span>
+        <p class="timeline-text">
+          Developed cross-platform mobile apps for dental and hair wellness using Flutter, Dart, Firebase, and REST APIs. Implemented state management using Provider. Focused on UI/UX, API integration, and performance optimization.
+        </p>
+      </li>
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Cybersecurity Intern – Pinnacle Labs</h4>
+        <span>June 2024 – August 2024</span>
+        <p class="timeline-text">
+          Built tools for password analysis, encryption and decryption using AES and DES. Developed systems using symmetric and asymmetric cryptography. Focused on secure data handling and file encryption.
+        </p>
+      </li>
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Python Intern – CodSoft</h4>
+        <span>June 2023 – August 2023</span>
+        <p class="timeline-text">
+          Built projects including To-Do List, Calculator, Weather App, Quiz Game, and Password Generator using Python. Strengthened fundamentals in logic, APIs, and modular programming.
+        </p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skill">
+    <h3 class="h3 skills-title">My Skills</h3>
+    <ul class="skills-list content-card">
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Python / OOP</h5>
+          <data value="90">90%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 90%;"></div>
+        </div>
+      </li>
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Flutter & Dart</h5>
+          <data value="85">85%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 85%;"></div>
+        </div>
+      </li>
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">HTML / CSS / ReactJS</h5>
+          <data value="80">80%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 80%;"></div>
+        </div>
+      </li>
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Firebase / REST APIs</h5>
+          <data value="75">75%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 75%;"></div>
+        </div>
+      </li>
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Node.js / Express.js</h5>
+          <data value="70">70%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 70%;"></div>
+        </div>
+      </li>
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">MongoDB / MySQL / SQLite</h5>
+          <data value="70">70%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 70%;"></div>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="timeline">
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="school-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Certifications</h3>
+    </div>
+    <ol class="timeline-list">
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Google Introduction to Generative AI</h4>
+      </li>
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">AI for India 2.0: Python + Face Recognition – GUVI</h4>
+      </li>
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Backend Development Bootcamp – DevTown (GDSC & AWS)</h4>
+      </li>
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Cybersecurity Internship – Pinnacle Labs</h4>
+      </li>
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Python Internship – CodSoft</h4>
+      </li>
+    </ol>
+  </section>
+
+</article>
+
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+<article class="portfolio" data-page="portfolio">
+
+  <header>
+    <h2 class="h2 article-title">Portfolio</h2>
+  </header>
+
+  <section class="projects">
+
+    <ul class="filter-list">
+      <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+      <li class="filter-item"><button data-filter-btn>Web design</button></li>
+      <li class="filter-item"><button data-filter-btn>Applications</button></li>
+      <li class="filter-item"><button data-filter-btn>Web development</button></li>
+    </ul>
+
+    <div class="filter-select-box">
+      <button class="filter-select" data-select>
+        <div class="select-value" data-selecct-value>Select category</div>
+        <div class="select-icon">
+          <ion-icon name="chevron-down"></ion-icon>
+        </div>
+      </button>
+
+      <ul class="select-list">
+        <li class="select-item"><button data-select-item>All</button></li>
+        <li class="select-item"><button data-select-item>Web design</button></li>
+        <li class="select-item"><button data-select-item>Applications</button></li>
+        <li class="select-item"><button data-select-item>Web development</button></li>
+      </ul>
+    </div>
+
+    <ul class="project-list">
+      <li class="project-item active" data-filter-item data-category="web development">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+          </figure>
+          <h3 class="project-title">Finance</h3>
+          <p class="project-category">Web development</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="web development">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+          </figure>
+          <h3 class="project-title">Orizon</h3>
+          <p class="project-category">Web development</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="web design">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+          </figure>
+          <h3 class="project-title">Fundo</h3>
+          <p class="project-category">Web design</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="applications">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+          </figure>
+          <h3 class="project-title">Brawlhalla</h3>
+          <p class="project-category">Applications</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="web design">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+          </figure>
+          <h3 class="project-title">DSM.</h3>
+          <p class="project-category">Web design</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="web design">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+          </figure>
+          <h3 class="project-title">MetaSpark</h3>
+          <p class="project-category">Web design</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="web development">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+          </figure>
+          <h3 class="project-title">Summary</h3>
+          <p class="project-category">Web development</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="applications">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+          </figure>
+          <h3 class="project-title">Task Manager</h3>
+          <p class="project-category">Applications</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="web development">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+          </figure>
+          <h3 class="project-title">Arrival</h3>
+          <p class="project-category">Web development</p>
+        </a>
+      </li>
+
+      <!-- Added User Projects Using Existing Image Names -->
+      <li class="project-item active" data-filter-item data-category="applications">
+        <a href="https://github.com/chaitanyajoshi2004/ReGrowthMobile" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/project-10.jpg" alt="Regrowth App" loading="lazy">
+          </figure>
+          <h3 class="project-title">Regrowth – Wellness App</h3>
+          <p class="project-category">Applications</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="applications">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/project-11.jpg" alt="Smart Attendance System" loading="lazy">
+          </figure>
+          <h3 class="project-title">Smart Attendance System</h3>
+          <p class="project-category">Applications</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="web development">
+        <a href="https://github.com/devxprite/resumave" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/project-12.jpg" alt="Resume Builder" loading="lazy">
+          </figure>
+          <h3 class="project-title">Resume Builder (Resumave)</h3>
+          <p class="project-category">Web development</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="applications">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/project-13.jpg" alt="Password Tools" loading="lazy">
+          </figure>
+          <h3 class="project-title">Password Analyzer & Encoder</h3>
+          <p class="project-category">Applications</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="applications">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/project-14.jpg" alt="Weather App" loading="lazy">
+          </figure>
+          <h3 class="project-title">Weather Info App</h3>
+          <p class="project-category">Applications</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="applications">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/project-15.jpg" alt="Quiz Game" loading="lazy">
+          </figure>
+          <h3 class="project-title">Quiz Game CLI</h3>
+          <p class="project-category">Applications</p>
+        </a>
+      </li>
+
+    </ul>
+
+  </section>
+
+</article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+  <header>
+    <h2 class="h2 article-title">Blog</h2>
+  </header>
+
+  <section class="blog-posts">
+    <ul class="blog-posts-list">
+
+      <li class="blog-post-item">
+        <a href="#">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/blog-1.jpg" alt="Building Secure Mobile Apps" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category">Cybersecurity</p>
+              <span class="dot"></span>
+              <time datetime="2024-08-10">Aug 10, 2024</time>
+            </div>
+            <h3 class="h3 blog-item-title">Building Secure Mobile Apps</h3>
+            <p class="blog-text">
+              Best practices to protect user data and secure communication in Flutter apps using Firebase and encryption.
+            </p>
+          </div>
+
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="#">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/blog-2.jpg" alt="Top Python Projects for Beginners" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category">Python</p>
+              <span class="dot"></span>
+              <time datetime="2024-07-18">Jul 18, 2024</time>
+            </div>
+            <h3 class="h3 blog-item-title">Top Python Projects for Beginners</h3>
+            <p class="blog-text">
+              From weather apps to password generators, explore beginner-friendly Python projects to boost your skills.
+            </p>
+          </div>
+
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="#">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/blog-3.jpg" alt="Why CustomTkinter is Perfect for Python GUIs" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category">UI Development</p>
+              <span class="dot"></span>
+              <time datetime="2024-06-29">Jun 29, 2024</time>
+            </div>
+            <h3 class="h3 blog-item-title">Why CustomTkinter is Perfect for Python GUIs</h3>
+            <p class="blog-text">
+              Learn how to use CustomTkinter to build sleek and modern interfaces in Python-based desktop applications.
+            </p>
+          </div>
+
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="#">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/blog-4.jpg" alt="Getting Started with Firebase Auth" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category">Mobile Dev</p>
+              <span class="dot"></span>
+              <time datetime="2024-06-05">Jun 5, 2024</time>
+            </div>
+            <h3 class="h3 blog-item-title">Getting Started with Firebase Auth</h3>
+            <p class="blog-text">
+              A quick guide to setting up Firebase Authentication in your Flutter apps with email and Google sign-in.
+            </p>
+          </div>
+
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="#">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/blog-5.jpg" alt="REST API Integration in Flutter" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category">Flutter</p>
+              <span class="dot"></span>
+              <time datetime="2024-05-15">May 15, 2024</time>
+            </div>
+            <h3 class="h3 blog-item-title">REST API Integration in Flutter</h3>
+            <p class="blog-text">
+              Learn how to fetch, parse, and display API data efficiently using the HTTP package in Flutter.
+            </p>
+          </div>
+
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="#">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/blog-6.jpg" alt="How I Built My Portfolio Website" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category">Personal</p>
+              <span class="dot"></span>
+              <time datetime="2024-04-30">Apr 30, 2024</time>
+            </div>
+            <h3 class="h3 blog-item-title">How I Built My Portfolio Website</h3>
+            <p class="blog-text">
+              From design to deployment, here’s the process I followed to build and host my responsive portfolio site.
+            </p>
+          </div>
+
+        </a>
+      </li>
+
+    </ul>
+  </section>
+
+</article>
+
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+       <section class="mapbox" data-mapbox>
+  <figure>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.213330410518!2d73.87350997470249!3d18.517506982576938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1076e92b7f3%3A0x8991e0b3cc43cf8!2sMahesh%20Society%2C%20Pune%2C%20Maharashtra%20411037!5e0!3m2!1sen!2sin!4v1719238783721!5m2!1sen!2sin"
+      width="400"
+      height="300"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </figure>
+</section>
+
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
